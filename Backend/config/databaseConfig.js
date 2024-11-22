@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const MONGODB_URL = process.env.MONGODB_URL || "mongodb://localhost:27017/my_database";
+const MONGODB_URL = "mongodb+srv://dheeraj-chaubey231211:MKL@EJ7kz72Spdi@cluster0.8gw7g8d.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 const databaseConnect = () => {
     mongoose
@@ -10,3 +10,7 @@ const databaseConnect = () => {
 }
 
 module.exports = databaseConnect;
+
+
+
+

@@ -9,7 +9,7 @@ app.use(express.json());
 app.use('/api/auth/',authRouter)
 
 app.use('/',(req,res) => {
-    res.status(200).json({data: 'JWTauth server'});
+    res.status(200).json({data: "jwt server"});
 })
 
 
